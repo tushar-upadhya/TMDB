@@ -5,13 +5,16 @@ import { ArrowRight } from "lucide-react";
 
 const Dashboard = () => {
   return (
-    <div className="my-12 flex w-[40%] flex-col items-center justify-center rounded-2xl bg-sky-950 p-12">
-      <div className="mb6">
+    <div className="my-5 flex w-full flex-col items-center justify-center p-12">
+      <div className="mb-6">
         <Logo size={72} />
       </div>
 
       <Button>
-        <Link href={"/"} className="flex items-center justify-center text-lg">
+        <Link
+          href={"/"}
+          className="flex items-center justify-center text-lg font-secondary text-accent"
+        >
           Browse All Movies & Series <ArrowRight className="ml-4" />
         </Link>
       </Button>

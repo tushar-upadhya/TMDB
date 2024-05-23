@@ -3,17 +3,12 @@ export const links = [
     name: "Home",
     path: "/",
   },
-  //   {
-  //     name: "Amenities",
-  //     path: "/amenities",
-  //   },
-  //   {
-  //     name: "Faq",
-  //     path: "/faq",
-  //   },
-
-  //   {
-  //     name: "Contact",
-  //     path: "/contact",
-  //   },
+  {
+    name: "Movies",
+    path: "/movies",
+  },
+  {
+    name: "Tv Series",
+    path: "/tvseries",
+  },
 ];
